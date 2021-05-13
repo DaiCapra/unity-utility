@@ -1,0 +1,9 @@
+{
+	"name":"com.artmann.utility",
+	"version":"1.0.0",
+	"displayName":"Utility",
+	"dependencies":
+	{
+		"com.modesttree.async": "https://github.com/unity-repos/unity-modest-async.git"
+	}
+}

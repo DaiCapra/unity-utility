@@ -1,0 +1,15 @@
+{
+    "name": "Utility",
+    "references": [
+        "GUID:fd2f2b9a2fd269446a244f0a1eab07be"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
