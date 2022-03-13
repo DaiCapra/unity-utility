@@ -43,5 +43,16 @@ namespace Utility.Extensions
 
             return true;
         }
+
+        public static TV GetOrMake<TK, TV>(this IDictionary<TK, TV> dict, TK key) where TV : new()
+        {
+            if (!dict.TryGetValue(key, out TV v))
+            {
+                v = new TV();
+                dict[key] = v;
+            }
+
+            return v;
+        }
     }
 }

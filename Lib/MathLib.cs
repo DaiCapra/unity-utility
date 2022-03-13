@@ -2,11 +2,11 @@
 
 namespace Utility.Lib
 {
-    public static class Math
+    public static class MathLib
     {
-        public static bool IsBitSet(int b, int pos)
+        public static bool IsBitSet(int mask, int pos)
         {
-            return (b & (1 << pos)) != 0;
+            return (mask & (1 << pos)) != 0;
         }
         public static int Modulus(int a, int n)
         {
